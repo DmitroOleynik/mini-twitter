@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtualenv
+.env/
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Compiled Cython
+*.c
+*.cpp
+
+# My local secrets
+.env.local
+*.env
+secrets.json
+
+# Build
+build/
+dist/
+*.egg-info/
